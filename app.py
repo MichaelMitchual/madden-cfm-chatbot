@@ -50,7 +50,6 @@ firebase_admin.initialize_app(cred, {
 })
 
 SLASH_COMMANDS = {
-    '/advance': cfm_advance.advance,
     '/schedule week': cfm_schedule.get_weekly_schedule,
     '/schedule wk': cfm_schedule.get_weekly_schedule,
     '/schedule': cfm_schedule.get_season_schedule,
